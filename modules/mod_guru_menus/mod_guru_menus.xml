@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>mod_guru_menus</name>
+	<author>iJoomla</author>
+	<creationDate>March 05, 2015</creationDate>
+	<copyright>(C) 2015 iJoomla.com</copyright>
+	<license>GPL V2</license>
+	<authorUrl>www.ijoomla.com</authorUrl>
+	<authorEmail>webmaster2@ijoomla.com</authorEmail>
+	<version>1.0.0</version>
+	<description>This module displays all Guru categories.</description>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_guru_menus.ini</language>
+		<language tag="en-GB">en-GB.mod_guru_menus.sys.ini</language>
+	</languages>
+	
+	<files>
+		<filename module="mod_guru_menus">mod_guru_menus.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+		<filename>guru_menus.js</filename>
+		<filename>guru_menus.css</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

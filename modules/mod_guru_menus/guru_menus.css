@@ -1,0 +1,51 @@
+#guru-component ul{
+	margin:0px;
+	list-style-type:none !important;
+}
+
+.guru-courses-content{
+	padding:0px 10px;
+}
+
+.guru-menus-list li{
+	margin:10px 0px;
+}
+
+.menu-categ-a, .menu-categ-a:hover, .menu-categ-a:visited,
+.menu-course-a, .menu-course-a:hover, .menu-course-a:visited{
+	text-decoration:none;
+	color:#666666 !important;
+	display:flex;
+	width:100%;
+}
+
+.menu-arrow{
+	margin-right:10px;
+}
+
+.menu-categ-name{
+	-webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */    
+    flex: 1;
+}
+
+.guru-menus-sidebar{
+	visibility:hidden;
+	position:absolute;
+	min-width:200px;
+	max-width:350px;
+	max-height:400px;
+	word-wrap: initial;
+	white-space: nowrap;
+	overflow-x: hidden;
+    overflow-y: auto;
+	background-color:#FFFFFF;
+	border:1px solid #e3e3e3;
+	border-radius:5px 5px 5px 5px;
+	z-index:4000;
+}
+
+.element-hover{
+	background-color:#FFFFFF;
+	padding-left:5px;
+}

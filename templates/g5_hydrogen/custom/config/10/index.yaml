@@ -1,0 +1,10 @@
+name: 10
+timestamp: 1449261144
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1448927385
+positions:
+  newsletter-signup: 'Module Position'
+  module-position-one: 'Module Position'
+  footer: Footer

@@ -1,0 +1,61 @@
+.kq-nav {
+	margin-top:55px;
+	margin-bottom:20px;
+}
+
+.kq-top-logo {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.kq-features {
+	margin: 0 auto 0 auto; width: 50%; 
+	text-align: center; 
+	font-size: 3em; 
+/*	line-height: 1.5em; */
+	background-color:rgba(67, 154, 134, 0.5); 
+	color:#FFF;
+}
+
+.kq-features--details {
+	font-size:0.7em; 
+	font-color:#FFF; 
+	line-height:1.2em; 
+	padding:10px 0px 20px 0px; 
+	margin:0px;
+}
+
+#mc-embedded-subscribe {
+	background-color: #4bac95;
+	border:2px solid #4bac95;
+}
+
+#mc-embedded-subscribe:hover {
+	border-top:2px solid #fff;
+	border-left:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	background-color:#439a86;
+}
+
+#fp-nav {
+	top:60%;
+}
+
+#g-navigation {
+	position:fixed;
+	width:100%;
+}
+
+input#mce-EMAIL:focus {
+	border-color:#FFF;
+	box-shadow:none;
+}
+
+input#mce-EMAIL{
+	border-color:#FFF;
+	box-shadow:none;
+	color:#4bac95;
+}

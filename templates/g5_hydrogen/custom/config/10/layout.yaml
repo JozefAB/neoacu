@@ -1,0 +1,106 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1448927385
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'logo-9865 12'
+      - 'position-position-5658 88'
+  /showcase/: {  }
+  /feature/: {  }
+  /main/:
+    -
+      - system-messages-6320
+    -
+      - system-content-9472
+    -
+      - position-position-1555
+  /subfeature/: {  }
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-3055 50'
+      - 'social-9946 50'
+  offcanvas:
+    -
+      - mobile-menu-3298
+structure:
+  header:
+    attributes:
+      boxed: '0'
+      class: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  logo-9865:
+    title: 'Logo / Image'
+    attributes:
+      class: 'gantry-logo kq-top-logo'
+  position-position-5658:
+    title: 'Module Position'
+    attributes:
+      key: newsletter-signup
+    block:
+      class: kq-nav
+  position-position-1555:
+    title: 'Module Position'
+    attributes:
+      key: module-position-one
+  position-footer:
+    attributes:
+      key: footer
+  social-9946:
+    attributes:
+      css:
+        class: social-items
+      items:
+        -
+          icon: 'fa fa-twitter'
+          text: Twitter
+          link: 'http://twitter.com/rockettheme'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook'
+          text: Facebook
+          link: 'http://facebook.com/rockettheme'
+          name: Facebook
+        -
+          icon: 'fa fa-google'
+          text: Google
+          link: 'http://plus.google.com/+rockettheme'
+          name: Google
+        -
+          icon: 'fa fa-rss'
+          text: RSS
+          link: 'http://www.rockettheme.com/product-updates?rss'
+          name: RSS
+    block:
+      variations: center
+  mobile-menu-3298:
+    title: 'Mobile Menu'
