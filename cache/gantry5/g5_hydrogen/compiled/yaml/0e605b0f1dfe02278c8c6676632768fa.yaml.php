@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/templates/g5_hydrogen/gantry/presets.yaml',
-    'modified' => 1449752706,
+    'modified' => 1449790710,
     'data' => [
         'preset1' => [
             'image' => 'gantry-admin://images/preset1.png',

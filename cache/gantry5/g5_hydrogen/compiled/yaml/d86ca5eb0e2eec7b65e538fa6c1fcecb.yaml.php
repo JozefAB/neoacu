@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/media/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-    'modified' => 1449752713,
+    'modified' => 1449790708,
     'data' => [
         'name' => 'Assets',
         'description' => 'Assets such as JS and CSS that can be globally loaded',

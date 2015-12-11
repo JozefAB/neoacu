@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/config/default/index.yaml',
-    'modified' => 1449752706,
+    'modified' => 1449790708,
     'data' => [
         'name' => 'default',
         'timestamp' => 1448927385,

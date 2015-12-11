@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/media/gantry5/engines/nucleus/particles/module.yaml',
-    'modified' => 1449752713,
+    'modified' => 1449790708,
     'data' => [
         'name' => 'Module Instance',
         'description' => 'Display a module instance.',

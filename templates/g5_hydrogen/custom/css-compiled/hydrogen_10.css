@@ -161,22 +161,22 @@ h1, h2, h3, h4, h5, h6, strong {
   font-family: "roboto";
   font-weight: 400;
   font-style: normal;
-  src: url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?56697882');
-  src: url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?56697882#iefix') format('embedded-opentype'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff?56697882') format('woff'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf?56697882') format('truetype'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg?56697882#roboto') format('svg');
+  src: url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?566a0cf5');
+  src: url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?566a0cf5#iefix') format('embedded-opentype'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff?566a0cf6') format('woff'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf?566a0cf6') format('truetype'), url('../../fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg?566a0cf5#roboto') format('svg');
 }
 @font-face {
   font-family: "roboto";
   font-weight: 500;
   font-style: normal;
-  src: url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?56697882');
-  src: url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?56697882#iefix') format('embedded-opentype'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff?56697882') format('woff'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf?56697882') format('truetype'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg?56697882#roboto') format('svg');
+  src: url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?566a0cf5');
+  src: url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?566a0cf5#iefix') format('embedded-opentype'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff?566a0cf5') format('woff'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf?566a0cf5') format('truetype'), url('../../fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg?566a0cf5#roboto') format('svg');
 }
 @font-face {
   font-family: "roboto";
   font-weight: 700;
   font-style: normal;
-  src: url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?56697882');
-  src: url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?56697882#iefix') format('embedded-opentype'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff?56697882') format('woff'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.ttf?56697882') format('truetype'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.svg?56697882#roboto') format('svg');
+  src: url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?566a0cf4');
+  src: url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?566a0cf4#iefix') format('embedded-opentype'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff?566a0cf5') format('woff'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.ttf?566a0cf5') format('truetype'), url('../../fonts/roboto_bold_macroman/Roboto-Bold-webfont.svg?566a0cf4#roboto') format('svg');
 }
 /* line 5, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/scss/hydrogen/_typography.scss */
 body {
@@ -979,7 +979,7 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:fo
     height: 203px;
     position: absolute;
     z-index: 1;
-    background: url('../../images/macbook.png?56697882');
+    background: url('../../images/macbook.png?566a0cf6');
   }
   /* line 31, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .macbook .macbook-color {
@@ -996,7 +996,7 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:fo
     height: 203px;
     position: absolute;
     z-index: 2;
-    background: url('../../images/ipad.png?56697882');
+    background: url('../../images/ipad.png?566a0cf6');
   }
   /* line 46, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .ipad .ipad-color {
@@ -1013,7 +1013,7 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:fo
     height: 203px;
     position: absolute;
     z-index: 3;
-    background: url('../../images/iphone.png?56697882');
+    background: url('../../images/iphone.png?566a0cf6');
   }
   /* line 61, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/scss/hydrogen/_sample.scss */
   .sample-content .device-promo .iphone .iphone-color {

@@ -89,11 +89,11 @@ class __TwigTemplate_dd7a960cb3d2c3781c0d93c42d87dd107edb8cf30cba7581a4cd514cf18
     }
 
     // line 24
-    public function getpend($__item__ = null)
+    public function getpend($__item__ = null, ...$__varargs__)
     {
         $context = $this->env->mergeGlobals(array(
             "item" => $__item__,
-            "varargs" => func_num_args() > 1 ? array_slice(func_get_args(), 1) : array(),
+            "varargs" => $__varargs__,
         ));
 
         $blocks = array();

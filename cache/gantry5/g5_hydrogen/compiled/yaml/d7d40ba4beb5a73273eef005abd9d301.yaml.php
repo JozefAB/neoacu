@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/templates/g5_hydrogen/gantry/theme.yaml',
-    'modified' => 1449752706,
+    'modified' => 1449790710,
     'data' => [
         'details' => [
             'name' => 'Hydrogen',
@@ -95,7 +95,7 @@ return [
             'dependencies' => [
                 'gantry' => '5.0.*',
                 'engine/nucleus' => '1.0.*',
-                'asset/font-awesome' => 4.2000000000000002,
+                'asset/font-awesome' => 4.20000000000000017763568394002504646778106689453125,
                 'particle/menu' => '1.0.*'
             ]
         ],

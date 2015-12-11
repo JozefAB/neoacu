@@ -91,11 +91,11 @@ class __TwigTemplate_e06e05e2ac4b7be0755056c788c26f4230776f63671ef744c6e253ebb74
     }
 
     // line 3
-    public function getcontrast($__value__ = null)
+    public function getcontrast($__value__ = null, ...$__varargs__)
     {
         $context = $this->env->mergeGlobals(array(
             "value" => $__value__,
-            "varargs" => func_num_args() > 1 ? array_slice(func_get_args(), 1) : array(),
+            "varargs" => $__varargs__,
         ));
 
         $blocks = array();

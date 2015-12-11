@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/media/gantry5/engines/nucleus/particles/logo.yaml',
-    'modified' => 1449752713,
+    'modified' => 1449790708,
     'data' => [
         'name' => 'Logo / Image',
         'description' => 'Display a logo or an image.',

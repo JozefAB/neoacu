@@ -1,49 +1,49 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1449754261,
-    'checksum' => 'bd88318d6b281c5df758740d612211a2',
+    'timestamp' => 1449843814,
+    'checksum' => '2daf2a139fa3fb4d026d31fa61ceb576',
     'files' => [
         'templates/g5_hydrogen/custom/config/10' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/index.yaml',
-                'modified' => 1449752706
+                'modified' => 1449790708
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/layout.yaml',
-                'modified' => 1449752706
+                'modified' => 1449790708
             ],
             'page/assets' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/page/assets.yaml',
-                'modified' => 1449752706
+                'modified' => 1449843814
             ],
             'page/body' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/page/body.yaml',
-                'modified' => 1449752706
+                'modified' => 1449843814
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/particles/logo.yaml',
-                'modified' => 1449754039
+                'modified' => 1449790708
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/styles.yaml',
-                'modified' => 1449754261
+                'modified' => 1449790708
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1449752706
+                'modified' => 1449790708
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
             'page' => [
                 'file' => 'templates/g5_hydrogen/config/default/page.yaml',
-                'modified' => 1449752706
+                'modified' => 1449790708
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1449752706
+                'modified' => 1449790708
             ]
         ]
     ],
@@ -67,7 +67,6 @@ jQuery(document).ready(function() {
     jQuery(\'#fullpage\').fullpage({
       \'navigation\': true,
       \'navigationPosition\': \'right\',
-      \'paddingTop\':\'195px\',
   });
 });
 </script>'

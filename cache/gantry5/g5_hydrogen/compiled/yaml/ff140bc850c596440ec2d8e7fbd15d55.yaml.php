@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/templates/g5_hydrogen/blueprints/styles/offcanvas.yaml',
-    'modified' => 1449752706,
+    'modified' => 1449790708,
     'data' => [
         'name' => 'Offcanvas Section',
         'description' => 'Paramters for the Off Canvas sidepanel section.',

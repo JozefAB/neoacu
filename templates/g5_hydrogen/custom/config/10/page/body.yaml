@@ -1,4 +1,4 @@
 doctype: html
 layout:
   sections: '2'
-body_bottom: "<script>\njQuery(document).ready(function() {\n    jQuery('#fullpage').fullpage({\n      'navigation': true,\n      'navigationPosition': 'right',\n      'paddingTop':'195px',\n  });\n});\n</script>"
+body_bottom: "<script>\njQuery(document).ready(function() {\n    jQuery('#fullpage').fullpage({\n      'navigation': true,\n      'navigationPosition': 'right',\n  });\n});\n</script>"

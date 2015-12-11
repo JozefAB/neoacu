@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/config/10/page/body.yaml',
-    'modified' => 1449752706,
+    'modified' => 1449843814,
     'data' => [
         'doctype' => 'html',
         'layout' => [
@@ -13,7 +13,6 @@ jQuery(document).ready(function() {
     jQuery(\'#fullpage\').fullpage({
       \'navigation\': true,
       \'navigationPosition\': \'right\',
-      \'paddingTop\':\'195px\',
   });
 });
 </script>'
