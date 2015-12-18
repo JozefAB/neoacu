@@ -7,6 +7,40 @@
 		margin-bottom:30px;
 	}
 
+	.kq-features {
+		margin: 0 auto 0 auto; 
+		padding: 10px 5px 10px 5px;
+		width: 80%; 
+		text-align: center; 
+		font-size: 1.3em; 
+		background-color:rgba(0, 0, 0, 0.35);
+		color:#FFF;
+	}
+
+	.kq-features--details {
+		font-size:0.7em; 
+		font-color:#FFF; 
+		padding:10px 0px 10px 0px; 
+		margin:0px;
+	}
+
+	#fp-nav {
+		top:52%;
+	}
+
+	#fp-nav.right {
+		right:8px;
+	}
+
+	#fp-nav ul li a span, .fp-slidesNav ul li a span {
+		background-color:rgba(0, 0, 0, 0.5);
+	}
+
+	.fp-tableCell {
+		padding-top:45%;
+		vertical-align: initial;
+	}
+
 }
 // For big phones
 @media all and (max-width: $breakpoints-tablet-container) and (min-width: $breakpoints-large-mobile-container) {
@@ -31,19 +65,26 @@
 	}
 
 	.kq-features {
-		margin: 0 auto 0 auto; width: 50%; 
-		text-align: center; 
-		font-size: 3em; 
+		/* margin: 0 auto 0 auto; width: 50%; */
+		margin-top: 100px;
+		/* text-align: center; */
+		font-family: 'Quicksand', sans-serif;
+		font-size: 2em; 
+		letter-spacing: -3px;
 	/*	line-height: 1.5em; */
-		background-color:rgba(0, 0, 0, 0.35);
-		color:#FFF;
+		color:rgba(0, 0, 0, 0.35);
+	}
+
+	.kq-features--title {
+		margin: 1.5rem 0 0 0;
+		padding-left: 15px;
 	}
 
 	.kq-features--details {
 		font-size:0.7em; 
-		font-color:#FFF; 
+		word-spacing: 1.5px;
 		line-height:1.2em; 
-		padding:10px 0px 20px 0px; 
+		padding:0px 20px 20px 40px; 
 		margin:0px;
 	}
 
@@ -63,7 +104,7 @@
 	}
 
 	#fp-nav {
-		top:60%;
+		top:50%;
 	}
 
 	#g-navigation {
@@ -81,4 +122,42 @@
 		box-shadow:none;
 		color:#4bac95;
 	}
+
+	.kq-image_wrapper {
+		width:60%;
+		margin: auto 0 auto 0;
+	}
+
+	#section0.fp-section.fp-table, .fp-slide.fp-table {
+		background: url('images/grey_pen_wt_all_cartridges.png') no-repeat 50% 70%; 
+        -webkit-background-size: 50%;
+        -moz-background-size: 50%;
+        -o-background-size: 50%;
+        background-size: 50%;
+	}
+
+	.kq-features--safety_1 {
+		height: 20rem;
+		width: 10rem;
+		background: url('images/NeoAcu_depth_adjustable.png') no-repeat 50% 70%; 
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+	}
+	
+	.kq-features--safety_2 {
+		height: 20rem;
+		width: 10rem;
+		background: url('images/NeoAcu_Safety Lock.png') no-repeat 50% 70%; 
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+	}
+	
+	.fp-tableCell {
+		vertical-align: baseline;
+	}
+
 }

@@ -83,70 +83,147 @@ textarea, select[multiple=multiple], input[type="email"], input[type="number"], 
     margin-top: 20px;
     margin-bottom: 30px;
   }
+  /* line 10, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-features {
+    margin: 0 auto 0 auto;
+    padding: 10px 5px 10px 5px;
+    width: 80%;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #fff;
+  }
+  /* line 20, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-features--details {
+    font-size: 0.7em;
+    font-color: #fff;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+  }
+  /* line 27, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  #fp-nav {
+    top: 52%;
+  }
+  /* line 31, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  #fp-nav.right {
+    right: 8px;
+  }
+  /* line 35, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* line 39, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .fp-tableCell {
+    padding-top: 45%;
+    vertical-align: initial;
+  }
 }
 @media all and (min-width: 75rem) {
-  /* line 22, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 56, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   .kq-nav {
     margin-bottom: 20px;
   }
-  /* line 26, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 60, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   .kq-top-logo {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 20px;
     float: left;
   }
-  /* line 33, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 67, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   .kq-features {
-    margin: 0 auto 0 auto;
-    width: 50%;
-    text-align: center;
-    font-size: 3em;
+    /* margin: 0 auto 0 auto; width: 50%; */
+    margin-top: 100px;
+    /* text-align: center; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    letter-spacing: -3px;
     /*	line-height: 1.5em; */
-    background-color: rgba(0, 0, 0, 0.35);
-    color: #fff;
+    color: rgba(0, 0, 0, 0.35);
   }
-  /* line 42, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 78, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-features--title {
+    margin: 1.5rem 0 0 0;
+    padding-left: 15px;
+  }
+  /* line 83, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   .kq-features--details {
     font-size: 0.7em;
-    font-color: #fff;
+    word-spacing: 1.5px;
     line-height: 1.2em;
-    padding: 10px 0px 20px 0px;
+    padding: 0px 20px 20px 40px;
     margin: 0px;
   }
-  /* line 50, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 91, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   #mc-embedded-subscribe {
     background-color: #4bac95;
     border: 2px solid #4bac95;
   }
-  /* line 55, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 96, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   #mc-embedded-subscribe:hover {
     border-top: 2px solid #fff;
     border-left: 2px solid #fff;
     border-bottom: 2px solid #fff;
   }
-  /* line 61, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 102, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   #fp-nav ul li a span, .fp-slidesNav ul li a span {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 65, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 106, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   #fp-nav {
-    top: 60%;
+    top: 50%;
   }
-  /* line 69, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 110, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   #g-navigation {
     position: fixed;
     width: 100%;
   }
-  /* line 74, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 115, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   input#mce-EMAIL:focus {
     border-color: #fff;
     box-shadow: none;
   }
-  /* line 79, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 120, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
   input#mce-EMAIL {
     border-color: #fff;
     box-shadow: none;
     color: #4bac95;
+  }
+  /* line 126, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-image_wrapper {
+    width: 60%;
+    margin: auto 0 auto 0;
+  }
+  /* line 131, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  #section0.fp-section.fp-table, .fp-slide.fp-table {
+    background: url('../../../../images/grey_pen_wt_all_cartridges.png?5673659b') no-repeat 50% 70%;
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+  }
+  /* line 139, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-features--safety_1 {
+    height: 20rem;
+    width: 10rem;
+    background: url('../../../../images/NeoAcu_depth_adjustable.png?56740778') no-repeat 50% 70%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  /* line 149, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .kq-features--safety_2 {
+    height: 20rem;
+    width: 10rem;
+    background: url('../../../../images/NeoAcu_Safety Lock.png?567407ae') no-repeat 50% 70%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  /* line 159, /opt/lampp/htdocs/neoacu/templates/g5_hydrogen/custom/scss/custom.scss */
+  .fp-tableCell {
+    vertical-align: baseline;
   }
 }
